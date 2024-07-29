@@ -103,7 +103,7 @@ namespace Exam_oop
                 }
 
                 Console.WriteLine($"Your grade is {userGrade} out of {totalGrade}");
-                Console.WriteLine(" \n thank youuuuuuuuuuuuu");
+                Console.WriteLine(" \n thank youuu");
             }
             else
             {
