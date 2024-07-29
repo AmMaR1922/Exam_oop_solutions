@@ -7,7 +7,7 @@ namespace Exam_oop
     {
         static void Main(string[] args)
         {
-            // Prompting for subject details
+            //  subject details
             Console.WriteLine("Enter Subject Id:");
             int subjectId = int.Parse(Console.ReadLine());
 
@@ -17,7 +17,7 @@ namespace Exam_oop
             // Creating a subject
             Subject subject = new Subject(subjectId, subjectName);
 
-            // Prompting for exam details
+            // Exam details
             Console.WriteLine("Please enter the type of exam (1 for Practical | 2 for Final):");
             int examType = int.Parse(Console.ReadLine());
 
